@@ -12,7 +12,7 @@ import com.example.webservices.repositories.UserRepository;
 @Configuration
 public class TestConfig implements CommandLineRunner{
 	
-	@Autowired	 // Com essa anotação o spring resolve a dependencia e associar uma instancia de userRepository
+	@Autowired	 // Injeação de dependencia de forma transparente
 	private UserRepository userRepository;
 
 	@Override
